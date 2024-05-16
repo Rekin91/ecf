@@ -6,7 +6,7 @@ $services = $_POST["services"];
 
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
     foreach ($services as $service) {
 

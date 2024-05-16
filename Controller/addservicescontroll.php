@@ -9,7 +9,7 @@ $horaires = $_POST["horaires"];
 
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
     $stmt = $pdo->prepare("INSERT INTO services (name, description, horaires) VALUES (:name, :description, :horaires)");
 

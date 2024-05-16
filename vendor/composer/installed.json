@@ -81,6 +81,78 @@
             "install-path": "../mongodb/mongodb"
         },
         {
+            "name": "php-on-couch/php-on-couch",
+            "version": "4.0.2",
+            "version_normalized": "4.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-on-Couch/PHP-on-Couch.git",
+                "reference": "7d74d73d5b587ee2b384095309b4f480d7b95460"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-on-Couch/PHP-on-Couch/zipball/7d74d73d5b587ee2b384095309b4f480d7b95460",
+                "reference": "7d74d73d5b587ee2b384095309b4f480d7b95460",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpcheckstyle/phpcheckstyle": "*",
+                "phpunit/phpunit": "5.5.*"
+            },
+            "time": "2023-09-12T01:03:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PHPOnCouch\\": "src/",
+                    "PHPOnCouch\\Adapter\\": "src/Adapter/",
+                    "PHPOnCouch\\Exceptions\\": "src/Exceptions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bailly",
+                    "email": "mickael.bailly@free.fr",
+                    "homepage": "https://github.com/dready92/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Clemens Sahs",
+                    "email": "clemens.sahs@slides-worker.org",
+                    "homepage": "https://github.com/ClemensSahs",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexis Côté",
+                    "email": "alexiscote19@hotmail.com",
+                    "homepage": "https://popojargo.github.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CouchDB NoSQL database access in PHP",
+            "homepage": "https://github.com/PHP-on-Couch/PHP-on-Couch",
+            "keywords": [
+                "apache",
+                "couch",
+                "couchdb",
+                "db",
+                "driver",
+                "nosql"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-on-Couch/PHP-on-Couch/issues",
+                "source": "https://github.com/PHP-on-Couch/PHP-on-Couch/tree/4.0.2"
+            },
+            "install-path": "../php-on-couch/php-on-couch"
+        },
+        {
             "name": "psr/log",
             "version": "3.0.0",
             "version_normalized": "3.0.0.0",

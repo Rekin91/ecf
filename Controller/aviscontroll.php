@@ -1,7 +1,7 @@
 <?php
 
 function getAllOpinions() {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $query = "SELECT * FROM avis";  

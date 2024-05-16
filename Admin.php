@@ -59,6 +59,12 @@ exit;
 echo $_SESSION["account"];
 unset($_SESSION["account"]);
            } 
+
+           if(!empty($_SESSION["unique"])) {
+
+            echo $_SESSION["unique"];
+            unset($_SESSION["unique"]);
+           }
     ?> 
 
 </div>
@@ -212,7 +218,6 @@ require_once "Controller/histovetcontroll.php"
 
 <?php 
 require_once "Controller/showconsultation.php";
-
 dbToTable();
 ?>
 
@@ -648,4 +653,4 @@ dbToTable();
             </div>
         </div>
 
-<?php require_once "Footer.php" ?>
+<?php require_once "footer.php" ?>

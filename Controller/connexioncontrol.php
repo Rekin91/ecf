@@ -7,7 +7,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $email = htmlspecialchars($_POST['email']);
     $password = htmlspecialchars($_POST['password']);
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $sql = "SELECT * FROM users WHERE email = :email";
@@ -37,7 +37,7 @@ try {
       }
       elseif ($user["id_role"] == 4) {
         $_SESSION["role"] = "admin";
-        header("Location: ../Admin.php");
+        header("Location: ../admin.php");
         exit;
     } 
     else {

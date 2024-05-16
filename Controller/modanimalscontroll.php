@@ -16,7 +16,7 @@ $photos = $_POST["photos"];
 
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
     $stmt = $pdo->prepare("UPDATE animals SET id_race = (:race), id_habitat = (:habitat), name = (:name), food = (:food), gramfood = (:gramfood), etat = (:etat), details = (:details), photos = (:photos) WHERE id=(:id) ");
     $stmt->bindParam(':id', $id);

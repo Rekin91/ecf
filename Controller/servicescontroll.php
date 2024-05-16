@@ -2,7 +2,7 @@
 
 
 function getAllServices(){
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $statement = $pdo->prepare('SELECT * FROM services');
     $statement->execute();
     

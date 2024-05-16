@@ -264,10 +264,10 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">SAVANE</h2>
                                     <p class="item-intro text-muted">Chaud et sec</p>
-                                    <p><a href="Animaux.php#savane" alt="Close modal">Voir tout nos animeaux de la savane</a></p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/savane/Antilope1.jpg" alt="antilopes"  />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/savane/Lions1.jpg" alt="lions" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/savane/Girafes2.jpg" alt="girafe" />
+                                    <p><a href="animaux.php#savane" alt="Close modal">Voir tout nos animeaux de la savane</a></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Antilope1.jpg" alt="antilopes"  />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Lions1.jpg" alt="lions" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Girafes2.jpg" alt="girafe" />
                                         <p>
                                             La savane est un vaste écosystème caractérisé par de vastes étendues d'herbes hautes et d'arbres épars. Située principalement dans les régions tropicales et subtropicales, elle est souvent associée à une faune diversifiée,
                                             notamment des grands herbivores tels que les éléphants, les girafes et les antilopes, ainsi que des prédateurs tels que les lions et les léopards. Les conditions climatiques y varient, avec des saisons sèches et des saisons des pluies,
@@ -298,10 +298,10 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Jungle</h2>
                                     <p class="item-intro text-muted">chaud et humide</p>
-                                    <p><a href="Animaux.php#jungle" alt="Close modal">Voir tout nos animeaux de la jungle</a></p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/jungle/Gorille2.jpg" alt="gorille" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/jungle/RoyalOak1.jpg" alt="royaloak" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/jungle/Leopard2.jpg" alt="leopard" />
+                                    <p><a href="animaux.php#jungle" alt="Close modal">Voir tout nos animeaux de la jungle</a></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/Gorille2.jpg" alt="gorille" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/RoyalOak1.jpg" alt="royaloak" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/Leopard2.jpg" alt="leopard" />
                                         <p>
                                             La jungle est un environnement dense et luxuriant composé principalement d'arbres tropicaux, de lianes et de végétation dense. Située dans les régions équatoriales et tropicales, elle abrite une incroyable biodiversité,
                                             comprenant une multitude d'espèces végétales et animales, telles que des singes, des serpents, des oiseaux exotiques et une variété d'insectes. La jungle est souvent humide et chaude, avec des précipitations abondantes qui favorisent une croissance luxuriante. Cet habitat dense offre également de nombreux défis pour la navigation et la survie en raison de sa complexité et de son environnement dense.
@@ -332,10 +332,10 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Marais</h2>
                                     <p class="item-intro text-muted">Humide , vegetation aquatique dense</p>
-                                    <p><a href="Animaux.php#marais" alt="Close modal">Voir tout nos animeaux des marais</a></p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/marais/Crocodile1.jpg" alt="crocodile" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/marais/Flamand1.jpg" alt="flamand" />
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/animeaux/marais/Raton1.jpg" alt="raton" />
+                                    <p><a href="animaux.php#marais" alt="Close modal">Voir tout nos animeaux des marais</a></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Crocodile1.jpg" alt="crocodile" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Flamand1.jpg" alt="flamand" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Raton1.jpg" alt="raton" />
                                         <p> 
                                             Les marais sont des zones humides caractérisées par une végétation aquatique dense, telles que des roseaux, des joncs et des herbes hautes, qui émergent de l'eau stagnante ou peu profonde.
                                             Ils se trouvent souvent dans des régions côtières ou près des cours d'eau et sont influencés par les marées et les inondations périodiques. Les marais sont des écosystèmes vitaux qui abritent

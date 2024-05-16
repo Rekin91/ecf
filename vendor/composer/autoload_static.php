@@ -21,6 +21,9 @@ class ComposerStaticInitc970f1a266f43a2118de462ce989b839
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'PHPOnCouch\\Exceptions\\' => 22,
+            'PHPOnCouch\\Adapter\\' => 19,
+            'PHPOnCouch\\' => 11,
         ),
         'M' => 
         array (
@@ -40,6 +43,18 @@ class ComposerStaticInitc970f1a266f43a2118de462ce989b839
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
+        ),
+        'PHPOnCouch\\Exceptions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-on-couch/php-on-couch/src/Exceptions',
+        ),
+        'PHPOnCouch\\Adapter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-on-couch/php-on-couch/src/Adapter',
+        ),
+        'PHPOnCouch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-on-couch/php-on-couch/src',
         ),
         'MongoDB\\' => 
         array (

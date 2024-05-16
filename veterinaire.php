@@ -137,7 +137,7 @@ if ($_SESSION["role"] != "veterinaire") {
         require_once "Controller/histofoodcontroll.php"
         ?>
        
-        <form method="GET" action="">
+        <form method="GET" action="#histo">
             <div class="col-md-6 mb-3 mx-auto">
                 <label for="id" class="form-label text-uppercase">Choisir l'animal</label>
                 <select class="form-control" id="id" name="id" required>
@@ -147,7 +147,7 @@ if ($_SESSION["role"] != "veterinaire") {
                 </select>
             </div>
             
-            <button type="submit" class="btn btn-primary" action="veterinaire.php#histo">Afficher l'historique</button>
+            <button type="submit" class="btn btn-primary">Afficher l'historique</button>
  
             
           

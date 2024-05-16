@@ -7,7 +7,7 @@
     $firstlog = 1 ;
 
     try {
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
         $stmt = $pdo->prepare("UPDATE users SET password = (:password), firstlog = (:firstlog) WHERE email = (:email)");
 

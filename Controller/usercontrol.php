@@ -10,12 +10,12 @@
 
 // PARTIE POUR L'ENVOI DE L EMAIL //
 
-$to = "zooarcadia@example.com";
+$to = "$email";
 $subject = "ID DE CONNEXION ZOO ARCADIA";
 $message = "Voici vos identifiant de connexion pour vous connecter a vos services 
 Identifiant= ".$email." votre mot de passe vous sera transmis sur votre lieux de travail par votre superieur";
-$headers = "From: ".$email."\r\n";
-$headers .= "Return-Path: ".$email."\r\n"; 
+$headers = "From: zooarcadia@exemple.fr\r\n";
+$headers .= "Return-Path: zooarcadia@exemple.fr\r\n"; 
 
 
 
@@ -32,7 +32,7 @@ $headers .= "Return-Path: ".$email."\r\n";
        
 
     try {
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
         $stmt = $pdo->prepare("INSERT INTO users (id_role, email, password) VALUES (:id_role, :email, :passwordHash)");
 
@@ -54,6 +54,11 @@ $headers .= "Return-Path: ".$email."\r\n";
             echo "Erreur lors de l'inscription : " . implode(", ", $stmt->errorInfo());
         }
     } catch (PDOException $e) {
-        echo "Erreur : " . $e->getMessage();
-    }
 
+        if ($e->errorInfo[1] == 1062) {
+            // Erreur de clé dupliquée (contrainte UNIQUE)
+            $_SESSION["unique"] = "Cet email existe déjà.";
+            header("location: ../admin.php");
+            exit;
+    }
+    }

@@ -333,4 +333,4 @@ require_once "Controller/aviscontroll.php" ;?>
 
 
 
-<?php require_once "Footer.php"; ?>
+<?php require_once "footer.php"; ?>

@@ -14,7 +14,7 @@ $date =htmlspecialchars($_POST["date"]);
 session_start();
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', ''); 
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi'); 
 
     $stmt = $pdo->prepare("UPDATE animals SET food = (:food), gramfood = (:gramfood), etat = (:etat), passdate = (:date), details = (:details) WHERE id=(:id)");
     $stmt->bindParam(':id', $id);

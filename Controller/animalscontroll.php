@@ -1,7 +1,7 @@
 <?php
 
 function getAllAntilopes(){
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -35,7 +35,7 @@ return $antilopes;
 
 
 function getAllLions(){
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -68,7 +68,7 @@ function getAllLions(){
 
 
     function getAllGirafes(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -102,7 +102,7 @@ function getAllLions(){
 
     
     function getAllGorilles(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -135,7 +135,7 @@ function getAllLions(){
 
 
     function getAllLeopards(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -168,7 +168,7 @@ function getAllLions(){
 
 
     function getAllSerpents(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -202,7 +202,7 @@ function getAllLions(){
 
 
     function getAllCrocodiles(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -236,7 +236,7 @@ function getAllLions(){
 
 
     function getAllFlamands(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -270,7 +270,7 @@ function getAllLions(){
 
 
     function getAllRatons(){
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         $query = "SELECT * FROM animals WHERE id_race = :id";  
@@ -302,7 +302,7 @@ function getAllLions(){
     
 
     function animalsToTable() {
-        $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+        $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
         $query = "SELECT * FROM animals";
         $stmt = $pdo->query($query);
     
@@ -329,7 +329,7 @@ function getAllLions(){
     
 
     function getAllAnimals() {
-            $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+            $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
             $query = "SELECT * FROM animals";  

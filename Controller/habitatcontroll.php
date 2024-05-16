@@ -1,7 +1,7 @@
 <?php
 
 function getAllHabitats() {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $query = "SELECT * FROM habitats";  
@@ -22,7 +22,7 @@ return $habitats;
 $habitats = getAllhabitats();
 
 function habitatsToTable() {
-    $pdo = new PDO('mysql:host=localhost;dbname=ecf', 'root', '');
+    $pdo = new PDO('mysql:host=mysql-ecfpromo2024.alwaysdata.net;dbname=ecfpromo2024_bddsql', '358970', 'coucoutoi');
     $query = "SELECT * FROM habitats";
     $stmt = $pdo->query($query);
 
