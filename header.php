@@ -17,6 +17,7 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+    <?php session_start(); ?>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -32,8 +33,32 @@
                         <li class="nav-item"><a class="nav-link" href="animaux.php#portfolio">Animaux</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="connexion.php">Connexion</a></li>
+                        <?php
+        
+        if (!empty($_SESSION["role"])) {
+            if ($_SESSION["role"] == "admin") {
+        ?>
+                <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
+                
+        <?php
+            } elseif ($_SESSION["role"] == "employe") {
+        ?>
+                <li class="nav-item"><a class="nav-link" href="employe.php">Employe</a></li>
+        <?php
+            } elseif ($_SESSION["role"] == "veterinaire") {
+        ?>
+                <li class="nav-item"><a class="nav-link" href="veterinaire.php">Veterinaire</a></li>
+        <?php
+            }
+            ?>
+                <li class="nav-item"><a class="nav-link" href="Controller/deconnexion.php">Déconnexion</a></li>
+        <?php
+        }
+        
+        
+        ?>
                     </ul>
                 </div>
             </div>
         </nav>
-       <?php session_start(); ?>
+       
