@@ -102,7 +102,7 @@ require_once "Controller/servicescontroll.php"; ?>
 
 <button class="btn btn-primary text-uppercase" data-bs-toggle="modal" href="#addservices">Ajouter</button>
 <button class="btn btn-primary text-uppercase" data-bs-toggle="modal" href="#modservices">modifier</button>
-    
+
 </div>
 </section>
 

@@ -46,7 +46,7 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES LIONS</div>
                                 <div class="portfolio-caption-subheading text-muted">Le lion est un grand félin de la savane africaine. Reconnaissable à sa crinière distinctive chez les mâles,
-                                                                                     il est l'un des plus grands prédateurs terrestres.</div>
+                                 il est l'un des plus grands prédateurs terrestres.</div>
                                 </div>
                             </div>
                     </div>

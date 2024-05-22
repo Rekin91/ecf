@@ -15,7 +15,7 @@
                 <div class="text-center">
 
                     <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">services disponibles au zoo pendant tout la durée d'ouverture du parc</h3>
+                    <h3 class="section-subheading text-muted">Heures d'ouvertures du parc : 9:00 à 18:00</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -24,7 +24,7 @@
                             <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Restauration</h4>
-                        <p class="text-muted">Plusieurs restaurant sont disponibles sur places pour voyager également pendant le repas</p>
+                        <p class="text-muted">Plusieurs restaurants sont disponibles sur place pour voyager également pendant le repas.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -40,7 +40,7 @@
                             <i class="fas fa-eye fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Visite guidée des habitats</h4>
-                        <p class="text-muted">Laissez vous guider pas nos expert et profitez des animeaux</p>
+                        <p class="text-muted">Laissez-vous guider par nos experts et profitez des animaux.</p>
                     </div>
                 </div>
                     <div class="container text-center">
@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Habitat</h2>
-                    <h3 class="section-subheading text-muted">Explorez les milieux naturel de nos animeaux</h3>
+                    <h3 class="section-subheading text-muted">Explorez les milieux naturels de nos animaux</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -183,7 +183,7 @@
         <section class="page-section" id="avis">
             <div class="container align-item-center text-center">
                 <h2 class="section-heading text-uppercase">Laisser nous votre avis</h2>
-                <h3 class="section-subheading text-muted">Nous prenons le temps d'etudier chaques avis afin de nous ameliorer constamment</h3>
+                <h3 class="section-subheading text-muted">Nous prenons le temps d'étudier chaque avis afin de nous améliorer constamment.</h3>
                 <form method="POST" action="Controller/addaviscontroll.php">
         <div class="col-md-6 mb-3 mx-auto">
   <label for="pseudo" class="form-label">Pseudo</label>
@@ -198,14 +198,10 @@
 
                 <?php 
              
-              if (isset($_SESSION['success_avis'])) {
-              echo "<p>{$_SESSION['success_avis']}</p>";
-              unset($_SESSION['success_avis']);
-               }
-               if (isset($_SESSION['error_avis'])) {
-                echo "<p>{$_SESSION['error_avis']}</p>";
-              unset($_SESSION['error_avis']);
-                 }
+              if (isset($_SESSION['avis'])) {
+              echo "<p>{$_SESSION['avis']}</p>";
+              unset($_SESSION['avis']);
+              }
                 ?>
 
             </div>
@@ -264,7 +260,7 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">SAVANE</h2>
                                     <p class="item-intro text-muted">Chaud et sec</p>
-                                    <p><a href="animaux.php#savane" alt="Close modal">Voir tout nos animeaux de la savane</a></p>
+                                    <p><a href="animaux.php#savane" alt="Close modal">Voir tout nos animaux de la savane</a></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Antilope1.jpg" alt="antilopes"  />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Lions1.jpg" alt="lions" />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/savane/Girafes2.jpg" alt="girafe" />
@@ -298,7 +294,7 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Jungle</h2>
                                     <p class="item-intro text-muted">chaud et humide</p>
-                                    <p><a href="animaux.php#jungle" alt="Close modal">Voir tout nos animeaux de la jungle</a></p>
+                                    <p><a href="animaux.php#jungle" alt="Close modal">Voir tout nos animaux de la jungle</a></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/Gorille2.jpg" alt="gorille" />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/RoyalOak1.jpg" alt="royaloak" />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/jungle/Leopard2.jpg" alt="leopard" />
@@ -332,7 +328,7 @@ endforeach;
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Marais</h2>
                                     <p class="item-intro text-muted">Humide , vegetation aquatique dense</p>
-                                    <p><a href="animaux.php#marais" alt="Close modal">Voir tout nos animeaux des marais</a></p>
+                                    <p><a href="animaux.php#marais" alt="Close modal">Voir tout nos animaux des marais</a></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Crocodile1.jpg" alt="crocodile" />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Flamand1.jpg" alt="flamand" />
                                     <img class="img-fluid d-block mx-auto" src="assets/img/animaux/marais/Raton1.jpg" alt="raton" />

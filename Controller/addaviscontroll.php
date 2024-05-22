@@ -1,5 +1,15 @@
 <?php
 
+session_start();
+if($_SESSION["utilcontact"] == 1){
+
+    $_SESSION["avis"] = "un message a déja été envoyer aujourd'hui merci de ressayer plus tard";
+    header('location: ../index.php#avis');
+    exit;
+
+
+}
+
 if(isset($_POST["pseudo"]) && isset($_POST["avis"])) {
 
 $pseudo = htmlspecialchars($_POST["pseudo"]);
@@ -14,15 +24,14 @@ try {
     $stmt->bindParam(':pseudo', $pseudo);
     $stmt->bindParam(':avis', $avis);
 
-session_start();
-
     if ($stmt->execute()) {
-        $_SESSION['success_avis'] = "l'avis a bien été envoyer";
-        header('Location: ../index.php');;
+        $_SESSION["utilcontact"] = 1;
+        $_SESSION['avis'] = "l'avis a bien été envoyer";
+        header('Location: ../index.php');
        exit;
     } else {
-        $_SESSION['error_avis'] = "l'avis n'a pas été envoyer";
-        echo "Erreur :" . implode(", ", $stmt->errorInfo());
+        $_SESSION['avis'] = "l'avis n'a pas été envoyer";
+        exit;
     }
 } catch (PDOException $e) {
     echo "Erreur : " . $e->getMessage();

@@ -306,26 +306,42 @@ function getAllLions(){
         $query = "SELECT * FROM animals";
         $stmt = $pdo->query($query);
     
-        
-        echo "<table class=\"table\">";
-        echo "<thead class=\"thead-dark\">" ;
-        echo "<tr><th>id</th><th>id_habitat</th><th>Id_Race</th><th>Nom</th><th>Alimentation</th><th>État</th><th>Details</th><th>Date de passage</th><th>Alimentation(g)</th><th>Photos</th></tr>";
+        echo '<div class="table-responsive">';
+        echo '<table class="table table-striped table-bordered">';
+        echo '<thead class="thead-dark">';
+        echo '<tr>';
+        echo '<th scope="col">ID</th>';
+        echo '<th scope="col">ID Habitat</th>';
+        echo '<th scope="col">ID Race</th>';
+        echo '<th scope="col">Nom</th>';
+        echo '<th scope="col">Alimentation</th>';
+        echo '<th scope="col">État</th>';
+        echo '<th scope="col">Détails</th>';
+        echo '<th scope="col">Date de passage</th>';
+        echo '<th scope="col">Alimentation (g)</th>';
+        echo '<th scope="col">Photos</th>';
+        echo '</tr>';
+        echo '</thead>';
+        echo '<tbody>';
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            echo "<tr>";
-            echo "<td>".$row['id']."</td>";
-            echo "<td>".$row['id_habitat']."</td>";
-            echo "<td>".$row['id_race']."</td>";
-            echo "<td>".$row['name']."</td>";
-            echo "<td>".$row['food']."</td>";
-            echo "<td>".$row['etat']."</td>";
-            echo "<td>".$row['details']."</td>";
-            echo "<td>".$row['passdate']."</td>";
-            echo "<td>".$row['gramfood']."</td>";
-            echo "<td>".$row['photos']."</td>";
-            echo "</tr>";
+            echo '<tr>';
+            echo '<td>' . ($row['id']) . '</td>';
+            echo '<td>' . ($row['id_habitat']) . '</td>';
+            echo '<td>' . ($row['id_race']) . '</td>';
+            echo '<td>' . ($row['name']) . '</td>';
+            echo '<td>' . ($row['food']) . '</td>';
+            echo '<td>' . ($row['etat']) . '</td>';
+            echo '<td>' . ($row['details']) . '</td>';
+            echo '<td>' . ($row['passdate']) . '</td>';
+            echo '<td>' . ($row['gramfood']) . '</td>';
+            echo '<td>' . ($row['photos']) . '</td>';
+            echo '</tr>';
         }
-        echo "</table>";
+        echo '</tbody>';
+        echo '</table>';
+        echo '</div>';
     }
+    
     
 
     function getAllAnimals() {
