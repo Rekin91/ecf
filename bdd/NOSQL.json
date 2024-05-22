@@ -1,0 +1,65 @@
+[
+  {
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f1"
+  },
+  "race": "antilopes",
+  "view": 8
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f2"
+  },
+  "race": "lions",
+  "view": 23
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f3"
+  },
+  "race": "girafes",
+  "view": 1
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f4"
+  },
+  "race": "gorilles",
+  "view": 1
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f5"
+  },
+  "race": "leopards",
+  "view": 2
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f6"
+  },
+  "race": "serpents",
+  "view": 6
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f7"
+  },
+  "race": "crocodiles",
+  "view": 2
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f8"
+  },
+  "race": "flamands",
+  "view": 1
+},
+{
+  "_id": {
+    "$oid": "663e4dd4df03d9ffdd7604f9"
+  },
+  "race": "ratons",
+  "view": 6
+}
+]

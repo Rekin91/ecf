@@ -147,7 +147,7 @@ if ($_SESSION["role"] != "veterinaire") {
                 </select>
             </div>
             
-            <button type="submit" class="btn btn-primary">Afficher l'historique</button>
+            <button type="submit" class="btn btn-primary text-uppercase">Afficher</button>
  
             
           

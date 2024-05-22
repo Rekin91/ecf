@@ -147,12 +147,12 @@ require_once "Controller/habitatcontroll.php";
     </div>
 </section>
 
-<!-- COMPTE RENDU VETERINAIRE -->
+<!-- COMPTE RENDU EMPLOYE -->
 
 <section class="page-section" id="veterinaire">
 
 <div class="container align-item-center text-center">
-    <h2 class="section-heading text-uppercase"> Compte rendu des veterinaires</h2>
+    <h2 class="section-heading text-uppercase"> Compte rendu des employes</h2>
 
 
 <?php 

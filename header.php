@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content="Bienvenue sur le site du zoo d'arcadia" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Zoo Arcadia</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -32,8 +32,12 @@
                         <li class="nav-item"><a class="nav-link" href="index.php#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="animaux.php#portfolio">Animaux</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="connexion.php">Connexion</a></li>
                         <?php
+                         if (!isset($_SESSION['role'])){ 
+                        ?>
+                        <li class="nav-item"><a class="nav-link" href="connexion.php">Connexion</a></li>
+                       <?php }
+
         
         if (!empty($_SESSION["role"])) {
             if ($_SESSION["role"] == "admin") {

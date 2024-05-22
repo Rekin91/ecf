@@ -25,7 +25,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/savane/Antilope1.jpg" alt="antilopes" />
+                                <img class="img-fluid" src="assets/img/animaux/savane/Antilope1.jpg" alt="antilopes" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES ANTILOPES</div>
@@ -41,7 +41,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/savane/Lions1.jpg" alt="lions" />
+                                <img class="img-fluid" src="assets/img/animaux/savane/Lions1.jpg" alt="lions" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES LIONS</div>
@@ -57,7 +57,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/savane/girafe3.jpg" alt="girafe" />
+                                <img class="img-fluid" src="assets/img/animaux/savane/girafe3.jpg" alt="girafe" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES GIRAFES</div>
@@ -84,7 +84,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/jungle/Gorille1.jpg" alt="gorilles" />
+                                <img class="img-fluid" src="assets/img/animaux/jungle/Gorille1.jpg" alt="gorilles" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES GORILLES </div>
@@ -101,7 +101,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/jungle/Leopard2.jpg" alt="leopard" />
+                                <img class="img-fluid" src="assets/img/animaux/jungle/Leopard2.jpg" alt="leopard" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES LEOPARD</div>
@@ -118,7 +118,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/jungle/RoyalOak1.jpg" alt="serpent" />
+                                <img class="img-fluid" src="assets/img/animaux/jungle/RoyalOak1.jpg" alt="serpent" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES SERPENT</div>
@@ -148,7 +148,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/marais/Crocodile1.jpg" alt="crocodiles" />
+                                <img class="img-fluid" src="assets/img/animaux/marais/Crocodile1.jpg" alt="crocodiles" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES CROCODILES </div>
@@ -165,7 +165,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/marais/flamandroses.jpg" alt="flamandroses" />
+                                <img class="img-fluid" src="assets/img/animaux/marais/flamandroses.jpg" alt="flamandroses" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES FLAMANDS ROSE</div>
@@ -182,7 +182,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/animeaux/marais/ratonade.jpg" alt="RatonLaveur" />
+                                <img class="img-fluid" src="assets/img/animaux/marais/ratonade.jpg" alt="RatonLaveur" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">LES RATONS LAVEUR</div>
